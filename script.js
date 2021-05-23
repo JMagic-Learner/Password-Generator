@@ -128,7 +128,7 @@ function secondPrompt() {
   while( passwordTest.length <= passwordMax) {
    trueRAND;
     }    
-  */ }
+  */ 
 
 
 // Write password to the #password input
