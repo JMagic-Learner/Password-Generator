@@ -65,12 +65,12 @@ if (chooseOne == 0) {
   console.log("the compuer has chosen array 1 " + uppercaseAlphabet[randomUpper] + " for the first symbol");
   
   
-} else if (chooseOne == 2 && wantNumbers.toLowerCase == "yes") {
+} else if (chooseOne == 2 && wantNumbers.toLowerCase() == "yes") {
   console.log(randomNumber);
   console.log("the computer has chosen array 2 " + numberSeries[randomNumber] + " for the first symbol");
   passwordTest.push( numberSeries[randomNumber] );
   
-} else if (chooseOne == 3 && wantSpecial.toLowerCase == "yes") {
+} else if (chooseOne == 3 && wantSpecial.toLowerCase() == "yes") {
   console.log(randomSpecial);
   console.log("the computer has chosen array 4 " + specialSeries[randomSpecial] + " for the first symbol");
   passwordTest.push( specialSeries[randomSpecial] );
